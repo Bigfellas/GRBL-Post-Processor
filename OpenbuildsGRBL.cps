@@ -49,8 +49,8 @@ properties =
 	hasCoolant : false,					// true : machine uses the coolant output, M8 M9 will be sent. false : coolant output not connected, so no M8 M9 will be sent
 	hasSpeedDial : true,				// true : the spindle is of type Makite RT0700, Dewalt 611 with a Dial to set speeds 1-6. false : other spindle
 	machineHomeZ : -5,					// absolute machine coordinates where the machine will move to at the end of the job - first retracting Z, then moving home X Y
-	machineHomeX : -190,
-	machineHomeY : -210
+	machineHomeX : -540,
+	machineHomeY : -540
 	};
 
 // creation of all kinds of G-code formats - controls the amount of decimals used in the generated G-Code
